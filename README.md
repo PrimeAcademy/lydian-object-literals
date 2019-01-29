@@ -37,8 +37,17 @@ A `for` loop is a terrific way of accomplishing many things, but ES6 has introdu
 
 ### String Matching
 
-Allow the user to enter a second parameter that is a search string. If a user enters the second parameter, the function should only return books that include that series of characters in the result. For example, if `Sp` was entered without any genre, the result should be:
+Allow the user to enter a second parameter that is a search string. If a user enters the second parameter, the function should only return books that include that series of characters in the result. The genre filter should still apply. For example:
+
 
 ```JavaScript
+// this code
+console.log(bookFinder('', 'Sp'));
+// should log
 ['The Public Speaker', 'The Spaceship']
+
+// this code
+console.log(bookFinder('SciFi', 'Sp'));
+// should log
+['The Spaceship']
 ```

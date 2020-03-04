@@ -1,5 +1,12 @@
 # Literary Object Literals
 
+- Practice Read and Write skills
+- Solidify JavaScript knowledge
+  - functions
+  - objects
+  - arrays
+  - loops
+
 You run a library for an incredibly diverse group of people with an incredibly wide array of interests. You need a way for your guests to find books they are interested in quickly, but you don't want to remove any of the books from your library.
 
 You need to create a function that is able to take in a genre that a user selects, and return an array of books titles (stings) of that genre.

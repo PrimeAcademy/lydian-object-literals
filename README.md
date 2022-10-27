@@ -9,7 +9,7 @@
 
 You run a library for an incredibly diverse group of people with an incredibly wide array of interests. You need a way for your guests to find books they are interested in quickly, but you don't want to remove any of the books from your library.
 
-You need to create a function that is able to take in a genre that a user selects, and return an array of books titles (stings) of that genre.
+You need to create a function that is able to take in a genre that a user selects, and return an array of books titles (strings) of that genre.
 
 For example. If a user selects `Fantasy`, they should receive the array:
 
